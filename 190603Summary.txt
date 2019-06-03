@@ -1,0 +1,19 @@
+上午：
+今天上午配置了下go的开发环境，然后安装了工作软件、申请了邮箱
+要点如下：
+	电脑密码：221336
+	SVN账号：lidh	SVN密码：lidh123
+	工作邮箱账号：lidh2@cdfortis.com 密码：643370164Ldh
+	公司代码仓库：http://172.20.1.210:88/
+	公司SVN地址：https://172.20.1.210:82/svn/FortisTech/
+	Git账号：lidh2 Git密码：lidh2
+
+下午：
+何进老大让我熟悉Git，发了两本书给我看。
+本周主要看书和熟悉Git。
+
+知识点：
+	1、初始化一个Git仓库：在目标目录下使用git init命令。
+	2、添加文件到Git仓库，分两步
+		1、使用git add <file> 命令，可反复添加多个文件
+		2、使用命令git commit -m <message>，提交完成。
