@@ -8,4 +8,9 @@
 
 
 知识点：
-	1、
+	1、丢弃工作区某文件的修改，使用命令：git checkout -- file
+	2、丢弃被添加到暂存区的文件的修改，分两步命令操作：
+		1、git reset HEAD <file>
+		2、git checkout -- file
+	3、提交(commit)了不合适的修改到版本库时，撤销本次提交参考版本回退操作
+		git reset --hard <版本号>
