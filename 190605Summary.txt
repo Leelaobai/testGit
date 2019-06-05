@@ -8,4 +8,11 @@
 
 
 知识点：
-	1、
+	1、查看分支命令：git branch。该命令将会列出所有的分支，并在当前分支前有一个*号
+	2、创建新分支命令：git branch <name>
+	3、切换分支：git checkout <name>
+	4、创建+切换分支：git checkout -b <name>
+	5、删除分支：git branch -d <name>
+	6、合并某分支到当前分支：git merge <name>
+	7、一般推荐使用分支完成某个任务，然后合并后再删掉分支，这和直接在master分支上工作效果是一样的。
+	
